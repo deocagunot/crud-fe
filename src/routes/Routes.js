@@ -8,7 +8,7 @@ const Home = React.lazy(() => import("../pages/Home"));
 
 export const Routes = () =>
   useRoutes([
-    { path: "/", element: <Home /> },
+    { path: "/crud-fe/", element: <Home /> },
     { path: "/about", element: <About /> },
     {
       path: "/posts",
