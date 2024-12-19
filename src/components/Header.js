@@ -69,10 +69,10 @@ const Header = () => {
             <NavLink tabIndex="1" to="/crud-fe/" className={classNameFunc} end>
               Home
             </NavLink>
-            <NavLink tabIndex="2" to="/about" className={classNameFunc}>
+            <NavLink tabIndex="2" to="/crud-fe/about" className={classNameFunc}>
               About
             </NavLink>
-            <NavLink tabIndex="3" to="posts" className={classNameFunc}>
+            <NavLink tabIndex="3" to="/crud-fe/posts" className={classNameFunc}>
               Posts
             </NavLink>
           </div>
