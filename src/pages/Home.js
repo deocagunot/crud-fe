@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Home = () => (
   <section className="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
@@ -13,7 +13,7 @@ const Home = () => (
 
       <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
         <NavLink
-          to="posts"
+          to="/posts"
           className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-teal-700 hover:bg-teal-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
         >
           Check Post
@@ -28,7 +28,7 @@ const Home = () => (
           </svg>
         </NavLink>
         <NavLink
-          to="about"
+          to="/about"
           className="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
         >
           About Us
