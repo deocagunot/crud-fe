@@ -30,7 +30,7 @@ const Header = () => {
     <header>
       <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <Link to="/" tabIndex="0" className="flex">
+          <Link to="/crud-fe/" tabIndex="0" className="flex">
             <svg
               className="fill-current h-8 w-8 mr-2"
               width="54"
@@ -66,7 +66,7 @@ const Header = () => {
           }`}
         >
           <div className="text-sm lg:flex-grow text-teal-200 ">
-            <NavLink tabIndex="1" to="/" className={classNameFunc} end>
+            <NavLink tabIndex="1" to="/crud-fe/" className={classNameFunc} end>
               Home
             </NavLink>
             <NavLink tabIndex="2" to="/about" className={classNameFunc}>
