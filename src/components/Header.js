@@ -66,13 +66,13 @@ const Header = () => {
           }`}
         >
           <div className="text-sm lg:flex-grow text-teal-200 ">
-            <NavLink tabIndex="1" to="/crud-fe/" className={classNameFunc} end>
+            <NavLink tabIndex="1" to="/crud-fe" className={classNameFunc} end>
               Home
             </NavLink>
-            <NavLink tabIndex="2" to="/crud-fe/about" className={classNameFunc}>
+            <NavLink tabIndex="2" to="about" className={classNameFunc}>
               About
             </NavLink>
-            <NavLink tabIndex="3" to="/crud-fe/posts" className={classNameFunc}>
+            <NavLink tabIndex="3" to="posts" className={classNameFunc}>
               Posts
             </NavLink>
           </div>
